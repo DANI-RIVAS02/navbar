@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&family=Geostar+Fill&family=Sacramento&display=swap');
+
+
+:root {
+    --Magenta: rgb(122 , 17, 133);
+    --font-family: 'Geostar Fill', cursive;
+        
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 100px ;
+    background-color: var(--Magenta);
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    
+}
+.navbar.logo {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+img {
+    
+    width: 52% ;
+    
+   
+    
+}
+.menu {
+
+    height: 100% ;
+    
+}
+
+.menu ul {
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+}
+
+.menu ul li {
+
+   margin: 0 25px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 80%;
+   border: 1px;
+   transition: all 0.3ms;
+}
+
+.menu ul li:hover {
+   border-bottom: 1px solid ;
+   color: black;
+
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black ;
+    font-family: var(--font-family) ;
+    font-size: 15px;
+  }
+
+  body {
+      background-image: url(https://elperiodicodelaenergia.com/wp-content/uploads/2016/09/burbujas-de-jabo%CC%81n-1.jpg);
+        background-size: cover;
+        background-position: center;
+
+
+  }
+
